@@ -1,10 +1,50 @@
+/* General */
 body {
-    background-color: #ddcacaea;
+    background-color: rgb(252, 233, 236);
 }
 
 header {
     z-index: 100;
     width: 100%;
+    background-color: bisque;
+}
+
+/* Productos */
+
+#pills-home-tab {
+    background-color: bisque;
+    color: #000;
+    transition: all .6s;
+}
+
+#pills-home-tab:hover{
+    transition: all .6s;
+    background-color: peru;
+    font-size: 18px;
+}
+
+#pills-products-tab {
+    background-color: bisque;
+    color: #000;
+    transition: all .6s;
+}
+
+#pills-products-tab:hover{
+    transition: all .6s;
+    background-color: peru;
+    font-size: 18px;
+}
+
+#pills-carrito-tab {
+    background-color: bisque;
+    color: #000;
+    transition: all .6s;
+}
+
+#pills-carrito-tab:hover {
+    transition: all .6s;
+    background-color: peru;
+    font-size: 18px;
 }
 
 .description {
@@ -17,9 +57,29 @@ header {
     height: 118px;
 }
 
+.card {
+    background-color: #fff ;
+}
+
 .card-img-top {
     height: 400px;
 }
+
+.btn {
+    background-color: peru;
+    border: 1px solid beige;
+    color: #000;
+    transition: all .6s;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    transition: all .6s ;
+    background-color: beige;
+    border: 10px solid beige;
+}
+
+/* Carrito */
 
 .carrito {
     min-height: 80vh;
@@ -40,6 +100,10 @@ header {
     margin-right: 20px;
 }
 
+p {
+    font-weight: bold;
+}
+
 .table__cantidad > input {
     width: 40px;
     border: none;
@@ -48,4 +112,14 @@ header {
     font-weight: 700;
     margin-right: 30px;
     margin-bottom: 20px;
+}
+
+/* Footer */
+
+footer {
+    background-color: bisque;
+}
+
+footer p {
+    color: #000;
 }

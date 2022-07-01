@@ -21,7 +21,7 @@ function addToCarritoItem(e) {
     }
 
     addItemCarrito(newItem)
-
+    
 }
 
 
@@ -41,6 +41,7 @@ function addItemCarrito(newItem) {
 
     carrito.push(newItem)
     renderCarrito()
+    
 
 }
 
@@ -110,6 +111,13 @@ function removeItemCarrito(e) {
 
     tr.remove()
     carritoTotal()
+    Swal.fire({
+        position: 'center',
+        icon: 'info',
+        title: 'Se ha eliminado del carrito',
+        showConfirmButton: false,
+        timer: 1500
+      })
 
 }
 
