@@ -121,6 +121,9 @@ function removeItemCarrito(e) {
 
 }
 
+function comprarCarrito(e) {
+}
+
 function sumaCantidad(e) {
     const sumaInput = e.target
     const tr = sumaInput.closest(".itemCarrito")
