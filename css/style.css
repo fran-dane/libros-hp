@@ -1,4 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;1,800;1,900&display=swap');
+
 /* General */
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
 body {
     background-color: rgb(252, 233, 236);
 }
@@ -20,7 +26,6 @@ header {
 #pills-home-tab:hover{
     transition: all .6s;
     background-color: peru;
-    font-size: 18px;
 }
 
 #pills-products-tab {
@@ -32,7 +37,6 @@ header {
 #pills-products-tab:hover{
     transition: all .6s;
     background-color: peru;
-    font-size: 18px;
 }
 
 #pills-carrito-tab {
@@ -44,7 +48,6 @@ header {
 #pills-carrito-tab:hover {
     transition: all .6s;
     background-color: peru;
-    font-size: 18px;
 }
 
 .description {
@@ -58,7 +61,7 @@ header {
 }
 
 .card {
-    background-color: #fff ;
+    background-color: bisque ;
 }
 
 .card-img-top {
@@ -67,7 +70,7 @@ header {
 
 .btn {
     background-color: peru;
-    border: 1px solid beige;
+    border: 1px solid black;
     color: #000;
     transition: all .6s;
     margin-top: 10px;
@@ -76,7 +79,7 @@ header {
 .btn:hover {
     transition: all .6s ;
     background-color: orange;
-    border: 1px solid beige;
+    border: 1px solid black;
 }
 
 /* Carrito */
