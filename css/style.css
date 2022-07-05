@@ -96,11 +96,11 @@ header {
 }
 
 .table__productos > img {
-    width: 9rem;
-    height: 9rem;
+    width: 6rem;
+    height: 6rem;
     object-fit: contain;
     border-radius: 6px;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 p {
