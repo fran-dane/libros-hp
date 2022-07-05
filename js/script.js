@@ -22,6 +22,7 @@ function addToCarritoItem(e) {
 
     addItemCarrito(newItem)
     
+    
 }
 
 
@@ -37,10 +38,13 @@ function addItemCarrito(newItem) {
             carritoTotal()
             return null;
         }
+        
     }
 
     carrito.push(newItem)
     renderCarrito()
+
+    
     
 
 }

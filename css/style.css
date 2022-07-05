@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: rgb(252, 233, 236);
+    background-color: #F5EBDC;
 }
 
 header {
@@ -25,7 +25,7 @@ header {
 
 #pills-home-tab:hover{
     transition: all .6s;
-    background-color: peru;
+    background-color: #f0c693;
 }
 
 #pills-products-tab {
@@ -36,7 +36,7 @@ header {
 
 #pills-products-tab:hover{
     transition: all .6s;
-    background-color: peru;
+    background-color: #f0c693;
 }
 
 #pills-carrito-tab {
@@ -47,7 +47,19 @@ header {
 
 #pills-carrito-tab:hover {
     transition: all .6s;
-    background-color: peru;
+    background-color: #f0c693;
+}
+
+.nav-pills .nav-link {
+    background: 0 0;
+    border: 0;
+    border-radius: 0.25rem;
+    margin-right: 18px;
+    font-weight: bold;
+}
+
+.titulo-h2 {
+    font-weight: bold;
 }
 
 .description {
@@ -69,7 +81,7 @@ header {
 }
 
 .btn {
-    background-color: peru;
+    background-color: beige;
     border: 1px solid black;
     color: #000;
     transition: all .6s;
@@ -78,7 +90,8 @@ header {
 
 .btn:hover {
     transition: all .6s ;
-    background-color: orange;
+    background-color: #f0c693;
+    color: #000;
     border: 1px solid black;
 }
 
