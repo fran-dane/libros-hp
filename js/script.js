@@ -21,7 +21,13 @@ function addToCarritoItem(e) {
     }
 
     addItemCarrito(newItem)
-    
+    Swal.fire({
+        position: 'top-end',
+        icon: 'success',
+        title: 'Producto añadido al carrito!',
+        showConfirmButton: false,
+        timer: 1500
+      })
     
 }
 
