@@ -15,7 +15,11 @@ header {
     background-color: bisque;
 }
 
-/* Index */
+/* PopUp */
+
+.popup-class {
+    background-color: beige;
+}
 
 
 /* Productos */
