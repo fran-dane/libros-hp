@@ -21,7 +21,7 @@
          stopKeydownPropagation: 'false',
 
          input: 'select',
-	    inputPlaceholder: `País`,
+	    inputPlaceholder: ``,
 	    inputValue: '',
 	    inputOptions: {
             Argentina : 'Argentina',
