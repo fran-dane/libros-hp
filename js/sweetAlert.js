@@ -1,11 +1,11 @@
 (async () => {
     const {value : pais} = await Swal.fire({
          title: 'Bienvenido',
-         text: 'Selecciona tu páis',
+         text: 'Selecciona tu país',
         // html:
         //  icon: 'question',
          confirmButtonText: 'Seleccionar',
-         footer: 'Esta informacion es importante',
+         footer: 'Esta información es importante',
         // width:
          padding: '1rem',
         // background:
@@ -21,7 +21,7 @@
          stopKeydownPropagation: 'false',
 
          input: 'select',
-	    inputPlaceholder: `Pais`,
+	    inputPlaceholder: `País`,
 	    inputValue: '',
 	    inputOptions: {
             Argentina : 'Argentina',
