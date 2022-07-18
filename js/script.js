@@ -20,6 +20,7 @@ function addToCarritoItem(e) {
         cantidad: 1
     }
 
+    
     addItemCarrito(newItem)
     Swal.fire({
         position: 'top-end',
