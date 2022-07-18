@@ -23,6 +23,9 @@ a:hover {
     color: #c17f2e;
 }
 
+option {
+    color: #000;
+}
 
 h1{
     color: #000;
