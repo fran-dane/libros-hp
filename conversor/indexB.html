@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleB.css">
+    <title>Conversor de moneda</title>
+</head>
+<body>
+
+    <header>
+    <a href="../index.html"><h3>Volver a la tienda</h3></a>
+    </header>
+
+    <img src="img/icono.png" alt="" class="conversor-imagen">
+    <h1>Conversor de monedas</h1>
+    <p>Escoje la moneda y la cantidad para realizar la conversion</p>
+    
+    <div class="container">
+        <div class="moneda">
+            <select id="moneda-uno">
+                <option value="ARS">ARS</option>
+                <option value="USD" selected>USD</option>
+                <option value="UYU">UYU</option>
+
+            </select>
+
+            <input 
+            type="number" 
+            id="cantidad-uno" 
+            placeholder="0"  
+            value="1"
+            >
+
+        </div>
+
+        <div class="taza-cambio-container">
+            <button class="btn" id="taza">
+                CAMBIO
+            </button>
+
+            <div class="cambio" id="cambio"></div>
+
+        </div>
+
+        <div class="moneda">
+            <select id="moneda-dos">
+                <option value="ARS" selected>ARS</option>
+                <option value="USD">USD</option>
+                <option value="UYU">UYU</option>
+
+            </select>
+
+            <input 
+            type="number" 
+            id="cantidad-dos" 
+            placeholder="0"  
+            >
+
+        </div>
+    </div>
+
+    <h3>El tipo de cambio es a valor OFICIAL</h3>
+
+<script src="scriptB.js"></script>
+</body>
+</html>

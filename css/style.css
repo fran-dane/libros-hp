@@ -15,6 +15,15 @@ header {
     background-color: bisque;
 }
 
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: #eab677;
+}
+
 /* PopUp */
 
 .popup-class {
